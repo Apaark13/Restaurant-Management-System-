@@ -1,0 +1,77 @@
+body{
+
+    background-image:  url("Img/5591276.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+button a{
+     text-decoration: none;
+     color: black;
+}
+.fbody{
+    width: 100vw;
+
+    background-image: 
+    radial-gradient(ellipse at bottom left, rgba(0,163,203,1) 40%, rgba(0,163,203,0) 40%),
+    radial-gradient(ellipse at top right, rgba(0,163,203,1) 30%, rgba(0,163,203,0) 30%),
+    linear-gradient(to right, rgba(98,87,147,1) 0%, rgba(98,87,147,1) 33%, rgba(213,93,100,1) 33%, rgba(213,93,100,1) 66%, rgba(228,145,41,1) 66%);
+  color: #ffeff9;
+}
+
+.form input,
+        select,
+        button {
+            width: 100%;
+            padding: 10px;
+            z-index: -1;
+            opacity: 0.5;
+            border-radius: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            margin: 10px auto;
+
+        }
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .form {
+    margin: auto;
+    margin: 40px auto;
+    padding: 40px;
+}
+  .form select,input,button {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+ 
+  }
+.fbody {
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius:5px ;
+
+    
+    width: 40%;
+    position: absolute;
+    top: 8rem;
+    margin: 5rem auto;
+    left: 30%;
+}
+h3{
+    text-align: centre;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.form {
+    margin: auto;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.orderbody{
+    background-color: rgb(226, 43, 43);
+    box-sizing: border-box;
+    min-height: 80vh;
+    
+}
+.navbar{
+    height: 50px;
+    background-color:blue;
+}
+.orderleft{
+    background-color: rgb(255, 78, 78);
+    border: 2px dotted rgb(11, 6, 7);
+    margin:2.4vw;
+    width: 45vw;
+    display: inline-block;
+    min-height: 20vw;
+}
+.orderright{
+    background-color: rgb(255, 96, 96);
+    border: 2px dotted rgb(20, 7, 10); 
+    margin:2.4vw;
+    width: 45vw;
+    display: inline-block;
+    min-height: 20vw;
+
+}
